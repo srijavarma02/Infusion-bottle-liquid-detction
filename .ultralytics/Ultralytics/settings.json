@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "C:\\Users\\ravin\\Desktop\\sc\\Infusion-bottle-liquid-detction\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "10950289f101f5db2bff5318e0be5ceec9c96a74d08f0177ca2778c0cffa6cff",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Models / ML
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.weights
+*.tflite
+runs/
+
+# Local tools
+camera_test/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+config.py
+
+# Frontend
+node_modules/
+dist/
+

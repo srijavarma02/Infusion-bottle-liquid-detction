@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Users\\bhanu\\OneDrive\\Desktop\\adsfadfadf\\Summer Internship\\datasets",
+  "weights_dir": "C:\\Users\\bhanu\\OneDrive\\Desktop\\adsfadfadf\\Summer Internship\\saline_monitor\\weights",
+  "runs_dir": "C:\\Users\\bhanu\\OneDrive\\Desktop\\adsfadfadf\\Summer Internship\\saline_monitor\\runs",
+  "uuid": "b0a33652b497dea3a0a1cda66b4434836d801a0e6615cccc365c601bf0bf6f77",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": true,
+  "wandb": true,
+  "vscode_msg": true
+}

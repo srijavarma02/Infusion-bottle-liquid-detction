@@ -1,0 +1,157 @@
+.auth-boot-screen,
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.auth-boot-screen {
+  background: linear-gradient(180deg, #eef5fb 0%, #e8f0f8 100%);
+  color: #14314f;
+  font: 600 1rem "Segoe UI", sans-serif;
+}
+
+.login-page {
+  position: relative;
+  overflow: hidden;
+  padding: 24px;
+  background: linear-gradient(180deg, #eef4fb 0%, #e6eef7 100%);
+}
+
+.login-page__ambient {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(32px);
+  opacity: 0.45;
+}
+
+.login-page__ambient--blue {
+  width: 320px;
+  height: 320px;
+  top: 8%;
+  left: 10%;
+  background: rgba(62, 136, 255, 0.4);
+}
+
+.login-page__ambient--red {
+  width: 260px;
+  height: 260px;
+  right: 12%;
+  bottom: 10%;
+  background: rgba(239, 91, 99, 0.28);
+}
+
+.login-card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 460px);
+  padding: 32px;
+  border-radius: 28px;
+  border: 1px solid rgba(94, 125, 153, 0.18);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0 24px 70px rgba(21, 49, 79, 0.16);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+
+.login-card__eyebrow {
+  color: #2b78d4;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.login-card h1 {
+  margin: 10px 0 12px;
+  font-size: 2.2rem;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: #10253c;
+}
+
+.login-card p {
+  margin: 0;
+  color: #62788f;
+  line-height: 1.6;
+}
+
+.login-form {
+  display: grid;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.login-field {
+  display: grid;
+  gap: 8px;
+}
+
+.login-field span {
+  color: #4a6177;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.login-field input {
+  min-height: 50px;
+  border-radius: 16px;
+  border: 1px solid rgba(94, 125, 153, 0.22);
+  background: rgba(255, 255, 255, 0.82);
+  padding: 0 16px;
+  font: inherit;
+  color: #10253c;
+  outline: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.login-field input:focus {
+  border-color: #2b78d4;
+  box-shadow: 0 0 0 4px rgba(43, 120, 212, 0.12);
+}
+
+.login-button {
+  min-height: 52px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #2b78d4, #44a0ff);
+  color: white;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(43, 120, 212, 0.22);
+}
+
+.login-button:disabled {
+  opacity: 0.75;
+  cursor: wait;
+}
+
+.login-error {
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(239, 91, 99, 0.12);
+  color: #bb3240;
+  font-weight: 700;
+}
+
+.login-demo-users {
+  display: grid;
+  gap: 6px;
+  margin-top: 22px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(240, 246, 252, 0.8);
+  color: #5f7489;
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .login-card {
+    padding: 24px;
+  }
+
+  .login-card h1 {
+    font-size: 1.8rem;
+  }
+}
